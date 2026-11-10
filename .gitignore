@@ -1,7 +1,27 @@
-.build/
-.project/
+# macOS
 .DS_Store
-DerivedData/
-*.app/
-build-example/
+
+# Build output (the app is built locally and is code-signed per machine)
+/.build/
+/*.app/
 /AppSalute
+/AppSalute_*/
+/build-example/
+DerivedData/
+
+# Swift / Xcode
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# Logs and local secrets
+*.log
+.env
+*.p12
+*.cer
+*.mobileprovision
+
+# Private workspace material lives in the outer (private) repo
+/.project/
+/skills/
