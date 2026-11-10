@@ -1,0 +1,7 @@
+.build/
+.project/
+.DS_Store
+DerivedData/
+*.app/
+build-example/
+/AppSalute
